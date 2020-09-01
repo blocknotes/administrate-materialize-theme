@@ -1,7 +1,8 @@
-# Administrate Materialize Theme
+# Administrate Materialize Theme [![Gem Version](https://badge.fury.io/rb/administrate-materialize-theme.svg)](https://badge.fury.io/rb/administrate-materialize-theme)
 A Material theme form [Administrate](https://github.com/thoughtbot/administrate), based on [Materialize](https://materializecss.com) framework.
 
 Features:
+- no structural changes are required, just include CSS/JS;
 - Material design responsive theme;
 - customizable using SASS variables;
 - allow to use *Materialize* in the admin.
