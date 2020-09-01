@@ -29,5 +29,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'administrate', '~> 0.14.0'
 
-  spec.add_dependency 'rubocop', '~> 0.89.1'
+  spec.add_development_dependency 'rubocop', '~> 0.89.1'
 end
