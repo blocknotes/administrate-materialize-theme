@@ -1,0 +1,102 @@
+.button, [type="submit"] {
+  @extend .btn;
+}
+
+.field-unit--boolean [type="checkbox"] {
+  opacity: initial;
+  pointer-events: initial;
+  position: initial;
+}
+
+.field-unit__label >label {
+  display: inline-block;
+  font-weight: normal;
+  vertical-align: super;
+}
+
+.field-unit--belongs-to input.select-dropdown, .field-unit--has-many input.select-dropdown {
+  display: none;
+}
+
+.field-unit--nested {
+  @extend .card;
+
+  margin: 0 auto;
+}
+
+.field-unit--text textarea {
+  min-height: 10rem;
+}
+
+.timepicker {
+  .btn {
+    @extend .btn-flat;
+  }
+
+  .glyphicon {
+    margin-bottom: 0;
+    margin-top: -12px;
+
+    &:hover {
+      background: transparent;
+    }
+  }
+}
+
+#error_explanation {
+  @extend .card;
+
+  margin-bottom: 3rem;
+
+  h2 {
+    @extend h6;
+    @extend .center-align;
+
+    background: lighten($primary-color, 33%);
+    margin: 0;
+    padding: 1rem 0 0.6rem 0;
+  }
+
+  ul {
+    @extend .collection;
+
+    margin-top: 0;
+  }
+
+  li {
+    @extend .collection-item;
+
+    color: $error-color;
+  }
+}
+
+@media #{$small-and-down} {
+  .field-unit {
+    display: block;
+  }
+
+  .field-unit__label, .field-unit__field {
+    float: initial;
+    margin-left: 0;
+    max-width: initial;
+    text-align: left;
+    width: 100%;
+  }
+
+  .field-unit__label >label {
+    vertical-align: initial;
+  }
+
+  .main-content__header {
+    display: block;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    .button {
+      transform: scale(0.8);
+    }
+  }
+}

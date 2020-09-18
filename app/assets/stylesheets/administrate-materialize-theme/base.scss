@@ -1,0 +1,71 @@
+a:focus, .button:focus {
+  outline: none;
+}
+
+th.cell-label {
+  white-space: nowrap;
+}
+
+.app-container {
+  @extend .container;
+
+  display: block;
+  max-width: initial;
+  padding: 0;
+}
+
+.flash-notice {
+  @extend .blue, .lighten-4;
+}
+
+.main-content {
+  border-radius: 0;
+  padding-bottom: 0;
+}
+
+.main-content__body {
+  overflow-x: scroll;
+  padding-bottom: $navbar-height;
+}
+
+.main-content__header {
+  min-height: 6.2rem;
+
+  >h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.navigation {
+  padding: 0 0.7rem;
+
+  >.navigation__link {
+    @extend .white-text;
+    border-radius: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 1rem;
+    &:hover {
+      background: darken($primary-color, 5%);
+    }
+  }
+  >.navigation__link--active {
+    background: darken($primary-color, 15%);
+    font-weight: normal;
+  }
+}
+
+@media #{$small-and-down} {
+  .app-container {
+    width: 100%;
+  }
+}
+
+@media #{$medium-and-up} {
+  .navigation >.navigation__link {
+    height: $navbar-height;
+    line-height: $navbar-height;
+    padding: 0 1rem;
+  }
+}

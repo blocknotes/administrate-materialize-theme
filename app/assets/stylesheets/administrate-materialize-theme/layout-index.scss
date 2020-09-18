@@ -1,0 +1,15 @@
+nav.pagination {
+  margin-top: 3rem;
+}
+
+#search {
+  padding: 0.5rem 2.5rem 0 2.5rem;
+  width: calc(100% - 5rem);
+}
+
+@media #{$small-and-down} {
+  #search {
+    height: 2rem;
+    padding-top: 0;
+  }
+}

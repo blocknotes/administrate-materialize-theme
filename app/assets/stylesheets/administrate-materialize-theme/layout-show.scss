@@ -1,0 +1,37 @@
+.attribute-data {
+  clear: none;
+  display: inline-block;
+  float: none;
+  margin-left: 1rem;
+  vertical-align: top;
+}
+
+.attribute-label {
+  clear: none;
+  display: inline-block;
+  float: none;
+}
+
+@media #{$small-and-down} {
+  .attribute-data {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .attribute-label {
+    border-bottom: 1px solid #eee;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+
+  table {
+    td:first-child, th:first-child {
+      padding-left: 0;
+    }
+    td:last-child, th:last-child {
+      padding-right: 0;
+    }
+  }
+}
