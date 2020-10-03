@@ -1,4 +1,4 @@
-# Administrate Materialize Theme [![Gem Version](https://badge.fury.io/rb/administrate-materialize-theme.svg)](https://badge.fury.io/rb/administrate-materialize-theme)
+# Administrate Materialize Theme [![Gem Version](https://badge.fury.io/rb/administrate-materialize-theme.svg)](https://badge.fury.io/rb/administrate-materialize-theme) [![CircleCI](https://circleci.com/gh/blocknotes/administrate-materialize-theme.svg?style=svg)](https://circleci.com/gh/blocknotes/administrate-materialize-theme)
 A Material theme form [Administrate](https://github.com/thoughtbot/administrate), based on [Materialize](https://materializecss.com) framework.
 
 Features:
