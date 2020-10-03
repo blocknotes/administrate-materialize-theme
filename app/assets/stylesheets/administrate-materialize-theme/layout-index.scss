@@ -1,5 +1,14 @@
+a.action-edit, a[data-method="delete"] {
+  text-decoration: underline;
+}
+
 nav.pagination {
   margin-top: 3rem;
+}
+
+.btn-clear-filters {
+  display: block;
+  margin-bottom: 10px;
 }
 
 #search {

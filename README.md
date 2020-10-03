@@ -2,16 +2,15 @@
 A Material theme form [Administrate](https://github.com/thoughtbot/administrate), based on [Materialize](https://materializecss.com) framework.
 
 Features:
-- no structural changes are required, just include CSS/JS;
-- Material design responsive theme;
-- customizable using SASS variables;
-- allow to use *Materialize* in the admin.
+- easy to install, just include CSS/JS to apply the theme;
+- Material Design responsive theme;
+- customizable via SASS variables;
+- allow to use *Materialize* components in the admin.
 
 ![screenshot](screenshot.png)
 
 ## Installation
-- If not already installed Administrate, set it up
-- Add to *Gemfile*: `gem 'administrate-materialize-theme'` (and execute `bundle`)
+- After installing Administrate, add to *Gemfile*: `gem 'administrate-materialize-theme'` (and execute `bundle`)
 - Edit *app/assets/config/manifest.js*, adding at the end:
 
 ```js
