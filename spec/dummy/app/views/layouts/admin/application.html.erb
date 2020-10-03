@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="<%= I18n.locale %>">
+<head>
+  <meta charset="utf-8">
+  <meta name="ROBOTS" content="NOODP">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+    <%= content_for(:title) %> - <%= application_title %>
+  </title>
+  <%= render "stylesheet" %>
+  <%= csrf_meta_tags %>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <%= stylesheet_link_tag 'admin', media: 'all' %>
+  <%= javascript_include_tag 'administrate-materialize-theme/theme' %>
+</head>
+<body>
+  <%= render "icons" %>
+
+  <div class="app-container">
+    <%= render "navigation" -%>
+
+    <main class="main-content" role="main">
+      <%= render "flashes" -%>
+      <%= yield %>
+    </main>
+  </div>
+
+  <%= render "javascript" %>
+</body>
+</html>
