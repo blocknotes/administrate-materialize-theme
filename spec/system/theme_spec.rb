@@ -10,5 +10,6 @@ RSpec.describe 'Theme', type: :system do
     expect(page).to have_css('.app-container', style: { 'padding': '0px' })
     expect(page).to have_css('.main-content', style: { 'border-radius': '0px' })
     expect(page).to have_css('.main-content__body', style: { 'overflow-x': 'scroll' })
+    expect(page).to have_css('body.administrate-materialize-theme')
   end
 end
