@@ -1,4 +1,6 @@
-# Administrate Materialize Theme [![Gem Version](https://badge.fury.io/rb/administrate-materialize-theme.svg)](https://badge.fury.io/rb/administrate-materialize-theme) [![CircleCI](https://circleci.com/gh/blocknotes/administrate-materialize-theme.svg?style=svg)](https://circleci.com/gh/blocknotes/administrate-materialize-theme)
+# Administrate Materialize Theme
+[![Gem Version](https://badge.fury.io/rb/administrate-materialize-theme.svg)](https://badge.fury.io/rb/administrate-materialize-theme) [![CircleCI](https://circleci.com/gh/blocknotes/administrate-materialize-theme.svg?style=svg)](https://circleci.com/gh/blocknotes/administrate-materialize-theme)
+
 A Material theme form [Administrate](https://github.com/thoughtbot/administrate), based on [Materialize](https://materializecss.com) framework.
 
 Features:
@@ -38,9 +40,27 @@ And replace the link tag in the *application.html.erb* with: `<%= stylesheet_lin
 
 For the complete list of options take a look [here](app/assets/stylesheets/administrate-materialize-theme/components/_variables.scss).
 
+## Extra features
+- Sidebar example:
+
+```html
+<div class="row">
+  <div class="col s3">
+    <section class="mt-sidebar z-depth-1">
+      <h3>Sidebar</h3>
+      <p>Some content</p>
+    </section>
+  </div>
+  <div class="col s9">
+    <section class="main-content__body main-content__body--flush">
+      <!-- ... -->
+    </section>
+  </div>
+</div>
+```
+
 ## Do you like it? Star it!
-If you use this component just star it. A developer is more motivated to improve a project when there
- is some interest.
+If you use this component just star it. A developer is more motivated to improve a project when there is some interest.
 
 ## Contributors
 - [Mattia Roccoberton](https://blocknot.es/): author

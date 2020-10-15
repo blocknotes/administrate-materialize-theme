@@ -1,0 +1,17 @@
+.mt-sidebar {
+  @extend .z-depth-1;
+
+  font-size: 0.9rem;
+  padding: 0.8rem 0.8rem 0.4rem 0.8rem;
+  margin-top: 0.7rem;
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 0.7rem 0;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+  }
+}
