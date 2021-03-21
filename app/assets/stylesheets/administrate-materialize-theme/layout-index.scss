@@ -3,7 +3,7 @@ a.action-edit, a[data-method="delete"] {
 }
 
 nav.pagination {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .btn-clear-filters {
@@ -12,13 +12,12 @@ nav.pagination {
 }
 
 #search {
-  padding: 0.5rem 2.5rem 0 2.5rem;
+  padding: 0 2.5rem;
   width: calc(100% - 5rem);
 }
 
 @media #{$small-and-down} {
   #search {
     height: 2rem;
-    padding-top: 0;
   }
 }

@@ -20,12 +20,13 @@ th.cell-label {
 
 .main-content {
   border-radius: 0;
+  min-height: calc(100vh - #{$navbar-height});
   padding-bottom: 0;
 }
 
 .main-content__body {
   overflow-x: scroll;
-  padding-bottom: $navbar-height;
+  padding-bottom: 0;
 }
 
 .main-content__header {

@@ -52,21 +52,23 @@
     @extend h6;
     @extend .center-align;
 
-    background: lighten($primary-color, 33%);
+    background: lighten($error-color, 20%);
     margin: 0;
     padding: 1rem 0 0.6rem 0;
-  }
-
-  ul {
-    @extend .collection;
-
-    margin-top: 0;
   }
 
   li {
     @extend .collection-item;
 
     color: $error-color;
+    display: inline-block;
+  }
+
+  ul {
+    @extend .collection;
+
+    margin-top: 0;
+    text-align: center;
   }
 }
 
