@@ -27,6 +27,6 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_runtime_dependency 'administrate', '~> 0.14'
+  spec.add_runtime_dependency 'administrate', '~> 0.17'
   spec.add_runtime_dependency 'sassc', '~> 2.4'
 end
