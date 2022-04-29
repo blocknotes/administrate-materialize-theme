@@ -13,7 +13,7 @@ Features:
 - customizable via SASS variables;
 - allow to use *Materialize* components in the admin.
 
-![screenshot](screenshot.png)
+![screenshot](extra/screenshot.png)
 
 Please :star: if you like it.
 
