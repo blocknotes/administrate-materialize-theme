@@ -3,12 +3,12 @@
 appraise 'rails60-administrate016' do
   gem 'administrate', '~> 0.16.0'
   gem 'rails', '~> 6.0.0'
-  gem 'selenium-webdriver', require: false # Fix
+  # gem 'selenium-webdriver', require: false # Fix
 end
 
 appraise 'rails60-administrate' do # latest administrate
   gem 'rails', '~> 6.0.0'
-  gem 'selenium-webdriver', require: false # Fix
+  # gem 'selenium-webdriver', require: false # Fix
 end
 
 appraise 'rails61-administrate016' do
