@@ -33,4 +33,17 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = true
   config.use_instantiated_fixtures = false
   config.render_views = false
+
+  config.before(:suite) do
+    require 'administrate/version'
+
+    intro = ('-' * 80)
+    intro << "\n"
+    intro << "- Ruby:         #{RUBY_VERSION}\n"
+    intro << "- Rails:        #{Rails.version}\n"
+    intro << "- Administrate: #{Administrate::VERSION}\n"
+    intro << ('-' * 80)
+
+    RSpec.configuration.reporter.message(intro)
+  end
 end
