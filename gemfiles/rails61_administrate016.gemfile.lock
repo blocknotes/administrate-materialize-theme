@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    administrate-materialize-theme (0.2.4)
+    administrate-materialize-theme (1.0.0)
       administrate (~> 0.16)
 
 GEM
