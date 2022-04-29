@@ -13,12 +13,13 @@ Features:
 - customizable via SASS variables;
 - allow to use *Materialize* components in the admin.
 
-![screenshot](screenshot.png)
+![screenshot](extra/screenshot.png)
 
 Please :star: if you like it.
 
 ## Installation
 
+- Add a SASS/SCSS gem to your Gemfile (ex. `gem 'sassc'`)
 - After installing Administrate, add to *Gemfile*: `gem 'administrate-materialize-theme'` (and execute `bundle`)
 - Edit *app/assets/config/manifest.js*, adding at the end:
 

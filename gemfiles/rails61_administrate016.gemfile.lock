@@ -1,9 +1,8 @@
 PATH
   remote: ..
   specs:
-    administrate-materialize-theme (0.2.4)
-      administrate (~> 0.14)
-      sassc (~> 2.4)
+    administrate-materialize-theme (1.0.0)
+      administrate (~> 0.16)
 
 GEM
   remote: https://rubygems.org/
