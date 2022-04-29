@@ -6,14 +6,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec
 
 group :development, :test do
-  gem 'activestorage', '~> 6.0'
-  gem 'capybara', '~> 3.33'
-  gem 'puma', '~> 4.3'
-  gem 'rspec_junit_formatter', '~> 0.4'
-  gem 'rspec-rails', '~> 4.0'
-  gem 'selenium-webdriver', '~> 3.142'
-  gem 'sprockets-rails', '~> 3.2'
-  gem 'sqlite3', '~> 1.4'
+  gem 'puma'
+  gem 'sassc'
+  gem 'sqlite3'
+
+  # Testing
+  gem 'capybara'
+  gem 'rspec_junit_formatter'
+  gem 'rspec-rails'
+  gem 'selenium-webdriver'
 
   # Linters
   gem 'fasterer'
